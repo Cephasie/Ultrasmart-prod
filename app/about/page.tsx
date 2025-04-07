@@ -155,7 +155,7 @@ export default function AboutPage() {
           description="The talented professionals behind UltraSmart Constructions' success."
         />
 
-        <Tabs defaultValue="leadership" className="mt-12">
+        <Tabs defaultValue="leadership" className="mt-7">
           <div className="flex justify-center">
             <TabsList>
               <TabsTrigger value="leadership">Leadership</TabsTrigger>
@@ -165,20 +165,20 @@ export default function AboutPage() {
           </div>
 
           <TabsContent value="leadership" className="mt-8">
-            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
               {[
                 {
                   name: "Engr Kingsley Zege",
                   role: "Founder & CEO",
                   bio: "With expert experience in construction and real estate development, Kingsley leads our company with vision and expertise.",
-                  image: "/placeholder.svg?height=300&width=300&text=JM",
+                  image: "https://res.cloudinary.com/dtqrzl86y/image/upload/v1744061702/kings_cobzc8.jpg",
                 },
-                {
-                  name: "Engr Kingsley Zege",
-                  role: "Co-Founder & Design Director",
-                  bio: "Zege's innovative design approach and attention to detail have shaped our company's aesthetic and commitment to quality.",
-                  image: "/placeholder.svg?height=300&width=300&text=SM",
-                },
+                // {
+                //   name: "Engr Kingsley Zege",
+                //   role: "Co-Founder & Design Director",
+                //   bio: "Zege's innovative design approach and attention to detail have shaped our company's aesthetic and commitment to quality.",
+                //   image: "/placeholder.svg?height=300&width=300&text=SM",
+                // },
                 {
                   name: "Engr Kingsley Zege",
                   role: "Chief Operations Officer",
@@ -198,7 +198,7 @@ export default function AboutPage() {
           </TabsContent>
 
           <TabsContent value="architects" className="mt-8">
-            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
               {[
                 {
                   name: "Engr Kingsley Zege",
@@ -218,12 +218,12 @@ export default function AboutPage() {
                   bio: "Zege transforms interiors into cohesive, functional spaces that reflect each client's unique personality and needs.",
                   image: "/placeholder.svg?height=300&width=300&text=MJ",
                 },
-                {
-                  name: "Engr Kingsley Zege",
-                  role: "Residential Design Expert",
-                  bio: "He specializes in creating homes that perfectly balance luxury, comfort, and practical living.",
-                  image: "/placeholder.svg?height=300&width=300&text=EW",
-                },
+                // {
+                //   name: "Engr Kingsley Zege",
+                //   role: "Residential Design Expert",
+                //   bio: "He specializes in creating homes that perfectly balance luxury, comfort, and practical living.",
+                //   image: "/placeholder.svg?height=300&width=300&text=EW",
+                // },
               ].map((member, i) => (
                 <TeamMemberCard key={i} {...member} />
               ))}
@@ -231,7 +231,7 @@ export default function AboutPage() {
           </TabsContent>
 
           <TabsContent value="project-managers" className="mt-8">
-            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
               {[
                 {
                   name: "Engr Kingsley Zege",
@@ -245,12 +245,12 @@ export default function AboutPage() {
                   bio: "He excels at understanding client needs and ensuring their vision is realized throughout the construction process.",
                   image: "/placeholder.svg?height=300&width=300&text=RK",
                 },
-                {
-                  name: "Engr Kingsley Zege",
-                  role: "Construction Manager",
-                  bio: "He oversees our construction teams with expertise and precision, maintaining our high standards on every site.",
-                  image: "/placeholder.svg?height=300&width=300&text=JW",
-                },
+                // {
+                //   name: "Engr Kingsley Zege",
+                //   role: "Construction Manager",
+                //   bio: "He oversees our construction teams with expertise and precision, maintaining our high standards on every site.",
+                //   image: "/placeholder.svg?height=300&width=300&text=JW",
+                // },
                 {
                   name: "Engr Kingsley Zege",
                   role: "Quality Assurance Lead",
@@ -267,7 +267,7 @@ export default function AboutPage() {
 
       <Section background="light">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-          <div className="flex flex-col justify-center space-y-4">
+          <div className="flex flex-col justify-center space-y-2">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-estate-primary">
                 Why Choose Us
@@ -302,7 +302,7 @@ export default function AboutPage() {
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-md overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="https://res.cloudinary.com/dtqrzl86y/image/upload/v1719319579/UltraSmart%20Homes/Project%201/WhatsApp_Image_2024-05-25_at_18.35.05_1c9934d9_tvhek4.jpg"
                 width={550}
                 height={550}
                 alt="Award-winning home built by UltraSmart Constructions"
