@@ -26,8 +26,8 @@ export function SectionHeading({
   }
 
   return (
-    <div className={cn("flex flex-col space-y-4 mb-12", alignClasses[align], className)}>
-      <div className="space-y-2">
+    <div className={cn("flex flex-col space-y-2 mb-5", alignClasses[align], className)}>
+      <div className="space-y-1">
         <h2
           className={cn(
             "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-estate-primary",

@@ -1,5 +1,6 @@
-import type React from "react"
-import { cn } from "@/lib/utils"
+import type React from 'react';
+
+import { cn } from '@/lib/utils';
 
 interface SectionProps {
   children: React.ReactNode
@@ -17,7 +18,7 @@ export function Section({ children, className, background = "white" }: SectionPr
   }
 
   return (
-    <section className={cn("w-full py-12 md:py-24 lg:py-32", bgClasses[background], className)}>
+    <section className={cn("w-full py-8 md:py-15 lg:py-20", bgClasses[background], className)}>
       <div className="container px-4 md:px-6">{children}</div>
     </section>
   )
