@@ -306,7 +306,7 @@ export default function HomePage() {
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-md overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="https://res.cloudinary.com/dtqrzl86y/image/upload/v1738585353/UltraSmart%20Homes/helmet_y8aa37.webp"
                 width={550}
                 height={550}
                 alt="Construction team at work"

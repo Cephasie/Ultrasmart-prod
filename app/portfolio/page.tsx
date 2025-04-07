@@ -30,7 +30,7 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHeader
-        title="See Ours Dream Homes"
+        title="See Our Dream Homes"
         description="Browse our collection of premium properties and custom-built homes."
         className="bg-estate-primary"
       >
