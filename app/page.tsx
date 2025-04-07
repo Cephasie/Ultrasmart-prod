@@ -1,3 +1,5 @@
+"use client"
+
 import {
   ArrowRight,
   Award,
@@ -6,6 +8,7 @@ import {
   Star,
   Users,
 } from 'lucide-react';
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,6 +26,10 @@ import { Section } from '@/components/ui/section';
 import { SectionHeading } from '@/components/ui/section-heading';
 
 export default function HomePage() {
+  <Head>
+  <title>UltraSmart Constructions | Real estate and home constructions company in Nigeria</title>
+  <meta name="description" content="Premium custom homes & real estate development with innovation, quality, and precision." />
+</Head>
   const heroImages = [
     "https://res.cloudinary.com/dtqrzl86y/image/upload/v1724334978/floorplan_dhmpcu.jpg",
     "https://res.cloudinary.com/dtqrzl86y/image/upload/v1719319579/UltraSmart%20Homes/Project%201/WhatsApp_Image_2024-05-25_at_18.37.14_9b63033b_djwken.jpg",
