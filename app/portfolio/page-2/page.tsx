@@ -6,13 +6,6 @@ import { PageHeader } from '@/components/layout/page-header';
 import { Button } from '@/components/ui/button';
 import { PropertyCard } from '@/components/ui/property-card';
 import { Section } from '@/components/ui/section';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 
 export default function PortfolioPage2() {
   const properties = Array.from({ length: 9 }).map((_, i) => ({
@@ -95,7 +88,7 @@ export default function PortfolioPage2() {
             <h2 className="text-2xl font-bold tracking-tight text-estate-primary">Completed Projects</h2>
             <p className="text-muted-foreground">Showing 9 of 24 properties (Page 2)</p>
           </div>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <Select defaultValue="newest">
               <SelectTrigger id="sort" className="w-[180px]">
                 <SelectValue placeholder="Sort by" />
@@ -108,7 +101,7 @@ export default function PortfolioPage2() {
                 <SelectItem value="size-desc">Size: Large to Small</SelectItem>
               </SelectContent>
             </Select>
-          </div>
+          </div> */}
         </div>
 
         <Suspense fallback={<div>Loading properties...</div>}>

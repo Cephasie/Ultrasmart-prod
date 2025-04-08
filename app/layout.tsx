@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     openGraph: {
     title: "UltraSmart Constructions | Real estate and constructions company",
     description:
-      "Building reliable homes with a result-oriented approach. Explore our quality construction projects.",
+      "UltraSmart Construction Limited is a real estate and home construction company in Nigeria, head-quartered in Abuja.",
     images: [
       {
         url: "https://res.cloudinary.com/dtqrzl86y/image/upload/v1719320004/UltraSmart%20Homes/logo_a9a1lc.jpg",
